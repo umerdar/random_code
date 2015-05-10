@@ -1,0 +1,22 @@
+{
+  "name": "SampleApp",
+  "version": "1.0.0",
+  "description": "A sample Node and Express App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umerdar/random_code.git"
+  },
+  "author": "Umer Dar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umerdar/random_code/issues"
+  },
+  "homepage": "https://github.com/umerdar/random_code",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

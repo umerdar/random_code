@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/umerdar/random_code",
   "dependencies": {
-    "express": "^4.12.3"
+    "body-parser": "^1.12.4",
+    "ejs": "^2.3.1",
+    "express": "^4.12.3",
+    "fs": "0.0.2",
+    "request": "^2.55.0"
   }
 }

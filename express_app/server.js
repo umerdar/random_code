@@ -2,7 +2,8 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-  res.send('<H1>Hello</H1> Express');
+  		console.log(__dirname);
+  	res.sendFile(__dirname + '/public/index.html')	
 });
 
 var server = app.listen(3000, function() {
